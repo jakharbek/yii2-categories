@@ -1,0 +1,26 @@
+{
+    "name": "jakharbek/yii2-categories",
+    "description": "Categories",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "javharbek",
+            "email": "javhar_work@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "kartik-v/yii2-tree-manager": "@dev",
+        "jakharbek/yii2-langs": "dev-master"
+    }, 
+	"extra": {
+        "bootstrap": "jakharbek\\categories\\Bootstrap"
+    },
+    "autoload": {
+        "psr-4": {
+            "jakharbek\\categories\\": "src"
+        }
+    }
+}
